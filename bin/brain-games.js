@@ -1,3 +1,6 @@
 #!/usr/bin/env node
 
-console.log('Welcome to the Brain Games!');
+import {greatings} from '../scr/cli.js';
+
+greatings();
+
