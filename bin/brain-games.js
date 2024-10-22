@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { greatings } from '../scr/cli.js';
+import greatings from '../src/cli.js';
 
 greatings();
