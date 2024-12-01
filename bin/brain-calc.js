@@ -3,4 +3,3 @@ import { gameLogic } from "../src/index.js";
 
 gameLogic(gameCalc)
 
-export default ga

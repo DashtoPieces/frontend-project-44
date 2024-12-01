@@ -3,5 +3,3 @@ import { gameLogic } from "../src.js";
 
 gameLogic(gameIsEven)
 
-
-
