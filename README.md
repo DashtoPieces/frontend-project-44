@@ -6,3 +6,4 @@
 IsEven game https://asciinema.org/a/IczvMBpaBg8y8WEMdGlqqmviB
 Calc game https://asciinema.org/a/uybImpKJVXvNljCiORWcbUZTW
 gcd game https://asciinema.org/a/w1uLsI9JafdhD39FBaKjFN4hs
+progression game https://asciinema.org/a/OzRKUk2Ffg8I9IfrOw6vhTYHe
