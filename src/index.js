@@ -6,8 +6,7 @@ export const randomNum = () => _.random(1, 25);
 
 export const gameLogic = ([start, quest]) => {
   console.log(start);
-  let i = 0;
-  while (i < 3) {
+  for (let i = 0; i < 3; ) {
     const usedQuest = quest();
     console.log(`Question: ${usedQuest.question}`);
     const answer = readlineSync.question('Your answer: ').toLowerCase();

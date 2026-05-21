@@ -1,3 +1,5 @@
+import { gameLogic } from '../index.js';
+
 const start = 'What number is missing in the progression?';
 
 const generateProgression = () => {
@@ -22,4 +24,6 @@ const generateProgression = () => {
 
 const gameProgression = [start, generateProgression];
 
-export default gameProgression;
+const startgameProgression = () => gameLogic(gameProgression);
+
+export default startgameProgression;

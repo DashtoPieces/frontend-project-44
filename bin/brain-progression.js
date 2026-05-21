@@ -1,4 +1,5 @@
-import gameProgression from '../games/progression-game.js';
-import { gameLogic } from '../src/index.js';
+#!/usr/bin/env node
 
-gameLogic(gameProgression);
+import startgameProgression from '../src/games/progression-game.js';
+
+startgameProgression();

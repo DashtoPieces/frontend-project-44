@@ -1,5 +1,6 @@
 import _ from 'lodash';
-import { randomNum } from '../src/index.js';
+import { randomNum } from '../index.js';
+import { gameLogic } from '../index.js';
 
 const start = 'Find the greatest common divisor of given numbers.';
 
@@ -22,4 +23,7 @@ const gsd = () => {
 };
 
 const gameGCD = [start, gsd];
-export default gameGCD;
+
+const startGCDGame = () => gameLogic(gameGCD);
+
+export default startGCDGame;

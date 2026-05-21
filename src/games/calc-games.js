@@ -1,4 +1,5 @@
-import { randomNum } from '../src/index.js';
+import { randomNum } from '../index.js';
+import { gameLogic } from '../index.js';
 
 const start = 'What is the result of the expression?';
 
@@ -16,7 +17,8 @@ const calculate = (num1, operator, num2) => {
 const generateExpression = () => {
   const num1 = randomNum();
   const num2 = randomNum();
-  const operator = ['+', '-', '*'][Math.floor(Math.random() * 3)];
+  const rounds = 3; 
+  const operator = ['+', '-', '*'][Math.floor(Math.random() * rounds)];
 
   const expression = `${num1} ${operator} ${num2}`;
   const checkAnswer = calculate(num1, operator, num2);
@@ -25,4 +27,7 @@ const generateExpression = () => {
 };
 
 const gameCalc = [start, generateExpression];
-export default gameCalc;
+
+const startCalcGame = () => gameLogic(gameCalc);
+
+export default startCalcGame;

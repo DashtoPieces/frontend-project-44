@@ -1,4 +1,5 @@
-import { randomNum } from '../src/index.js';
+import { randomNum } from '../index.js';
+import { gameLogic } from '../index.js';
 
 const start = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = () => {
@@ -8,4 +9,7 @@ const isEven = () => {
 };
 
 const gameIsEven = [start, isEven];
-export default gameIsEven;
+
+const startIsEvenGame = () => gameLogic(gameIsEven);
+
+export default startIsEvenGame;
