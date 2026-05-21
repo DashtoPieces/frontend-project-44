@@ -9,12 +9,12 @@
     "brain-progression": "bin/brain-progression.js"
   },
   "type": "module",
-  "description": "[![Actions Status](https://github.com/DashtoPieces/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DashtoPieces/frontend-project-44/actions)",
+  "description": "Console math games project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "DashtoPieces",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21",

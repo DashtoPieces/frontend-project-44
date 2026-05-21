@@ -4,6 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/5c902de97ede77ca73d1/maintainability)](https://codeclimate.com/github/DashtoPieces/frontend-project-44/maintainability)
 
 ## Описание проекта
+
 ### Требования
 
 ```
@@ -36,6 +37,7 @@ npm i
 ### Запуск игры: __"brain-progression"__
 [![asciicast](https://asciinema.org/a/OzRKUk2Ffg8I9IfrOw6vhTYHe.svg)](https://asciinema.org/a/OzRKUk2Ffg8I9IfrOw6vhTYHe)
 
-## Игра "Простое ли число?"### Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
+## Игра "Простое ли число?"
+### Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 ### Запуск игры: __"brain-prime"__
 [![asciicast](https://asciinema.org/a/UmSE1kAsq1bjFryKEMatQOc7H.svg)](https://asciinema.org/a/UmSE1kAsq1bjFryKEMatQOc7H)
