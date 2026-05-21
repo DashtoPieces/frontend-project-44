@@ -1,10 +1,10 @@
-import globals from 'globals';
+import globals from "globals";
 
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { FlatCompat } from '@eslint/eslintrc';
-import pluginJs from '@eslint/js';
-import importPlugin from 'eslint-plugin-import';
+import path from "path";
+import { fileURLToPath } from "url";
+import { FlatCompat } from "@eslint/eslintrc";
+import pluginJs from "@eslint/js";
+import importPlugin from "eslint-plugin-import";
 
 // mimic CommonJS variables -- not needed if using CommonJS
 const __filename = fileURLToPath(import.meta.url);
@@ -26,22 +26,21 @@ export default [
       ...importPlugin.configs.recommended.rules,
     },
   },
-  ...compat.extends('airbnb'),
+  ...compat.extends("airbnb"),
   {
     plugins: { import: importPlugin },
 
     rules: {
-      semi: 'error',
-      'no-console': 'off',
-      'import/extensions': 'off',
-      'import/no-extraneous-dependencies': 'off',
-      'no-underscore-dangle': [
-        'error',
+      semi: "error",
+      "no-console": "off",
+      "import/extensions": "off",
+      "import/no-extraneous-dependencies": "off",
+      "no-underscore-dangle": [
+        "error",
         {
-          allow: ['__filename', '__dirname'],
+          allow: ["__filename", "__dirname"],
         },
       ],
     },
-
   },
 ];
