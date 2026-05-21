@@ -1,5 +1,5 @@
-import readlineSync from "readline-sync";
-import { userName } from "./cli.js";
+import readlineSync from 'readline-sync';
+import { userName } from './cli.js';
 
 export const randomNum = () => Math.floor(Math.random() * 25) + 1;
 
@@ -9,9 +9,9 @@ export const gameLogic = ([start, quest]) => {
   while (round < 3) {
     const usedQuest = quest();
     console.log(`Question: ${usedQuest.question}`);
-    const answer = readlineSync.question("Your answer: ").toLowerCase();
+    const answer = readlineSync.question('Your answer: ').toLowerCase();
     if (answer === `${usedQuest.answer}`) {
-      console.log("Correct!");
+      console.log('Correct!');
       round += 1;
     } else {
       console.log(

@@ -1,7 +1,7 @@
-import _ from "lodash";
-import { randomNum, gameLogic } from "../index.js";
+import _ from 'lodash';
+import { randomNum, gameLogic } from '../index.js';
 
-const start = "Find the greatest common divisor of given numbers.";
+const start = 'Find the greatest common divisor of given numbers.';
 
 const gsd = () => {
   const nums = `${randomNum()} ${randomNum()}`;
@@ -17,7 +17,7 @@ const gsd = () => {
     }
     return first;
   };
-  const checkAnswer = gcdCheck(_.split(nums, " "));
+  const checkAnswer = gcdCheck(_.split(nums, ' '));
   return { question: nums, answer: checkAnswer };
 };
 

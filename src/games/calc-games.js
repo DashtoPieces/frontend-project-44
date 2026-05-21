@@ -1,12 +1,12 @@
-import { randomNum, gameLogic } from "../index.js";
+import { randomNum, gameLogic } from '../index.js';
 
-const start = "What is the result of the expression?";
+const start = 'What is the result of the expression?';
 
 const calculate = (num1, operator, num2) => {
   switch (operator) {
-    case "+":
+    case '+':
       return num1 + num2;
-    case "-":
+    case '-':
       return num1 - num2;
     default:
       return num1 * num2;
@@ -17,7 +17,7 @@ const generateExpression = () => {
   const num1 = randomNum();
   const num2 = randomNum();
   const rounds = 3;
-  const operator = ["+", "-", "*"][Math.floor(Math.random() * rounds)];
+  const operator = ['+', '-', '*'][Math.floor(Math.random() * rounds)];
 
   const expression = `${num1} ${operator} ${num2}`;
   const checkAnswer = calculate(num1, operator, num2);

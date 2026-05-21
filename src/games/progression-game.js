@@ -1,6 +1,6 @@
-import { gameLogic } from "../index.js";
+import { gameLogic } from '../index.js';
 
-const start = "What number is missing in the progression?";
+const start = 'What number is missing in the progression?';
 
 const generateProgression = () => {
   const begin = Math.floor(Math.random() * 10);
@@ -14,10 +14,10 @@ const generateProgression = () => {
 
   const hiddenIndex = Math.floor(Math.random() * length);
   const hiddenValue = progression[hiddenIndex];
-  progression[hiddenIndex] = "..";
+  progression[hiddenIndex] = '..';
 
   return {
-    question: progression.join(" "),
+    question: progression.join(' '),
     answer: hiddenValue,
   };
 };

@@ -1,10 +1,10 @@
-import { randomNum, gameLogic } from "../index.js";
+import { randomNum, gameLogic } from '../index.js';
 
 const start = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const checkPrime = (num) => {
   if (num <= 3) {
-    return "yes";
+    return 'yes';
   } // Прочитала, что 1 не является простым числом, как жить
 
   let primeIndicator = 0;
@@ -14,9 +14,9 @@ const checkPrime = (num) => {
     }
   }
   if (primeIndicator > 1) {
-    return "no";
+    return 'no';
   }
-  return "yes";
+  return 'yes';
 };
 const isPrime = () => {
   const usedNum = `${randomNum()}`;
