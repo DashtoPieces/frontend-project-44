@@ -8,7 +8,7 @@ const checkPrime = (num) => {
   } // Прочитала, что 1 не является простым числом, как жить
 
   let primeIndicator = 0;
-  for (let i = 2; i < num; i += 1) {
+  for (let i = 2; i <= num; i += 1) {
     if (num % i === 0) {
       primeIndicator += 1;
     }

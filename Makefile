@@ -19,9 +19,9 @@ brain-even:
 	node bin/brain-even.js
 
 brain-gcd:
-	node bin/brain-gsd.js
+	node bin/brain-gcd.js
 
-brain-pro:
+brain-progression:
 	node bin/brain-progression.js
 
 brain-prime:

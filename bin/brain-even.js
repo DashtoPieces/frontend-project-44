@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import gameIsEven from "../src/games/even-games.js";
-import { gameLogic } from "../src/index.js";
+import startIsEvenGame from "../src/games/even-games.js";
 
-gameLogic(gameIsEven);
+startIsEvenGame();

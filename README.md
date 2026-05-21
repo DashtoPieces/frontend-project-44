@@ -24,24 +24,24 @@ npm i
 ## Игра "Проверка на четность"
 ### Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 ### Запуск игры: __"brain-even"__
-[![asciicast](https://asciinema.org/a/IczvMBpaBg8y8WEMdGlqqmviB.svg)](https://asciinema.org/a/IczvMBpaBg8y8WEMdGlqqmviB)
+[![asciicast](https://asciinema.org/a/qemF0Lo0XAJBlawg.svg)](https://asciinema.org/a/qemF0Lo0XAJBlawg)
 
 ## Игра "Калькулятор"
-### Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
+### Пользователю показывается случайное математическое выражение, например 25 + 16, которое нужно вычислить и записать правильный ответ.
 ### Запуск игры: __"brain-calc"__
-[![asciicast](https://asciinema.org/a/uybImpKJVXvNljCiORWcbUZTW.svg)](https://asciinema.org/a/uybImpKJVXvNljCiORWcbUZTW)
+[![asciicast](https://asciinema.org/a/zXldGSfsuqCyOovI.svg)](https://asciinema.org/a/zXldGSfsuqCyOovI)
 
 ## Игра "НОД"
-### Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
+### Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 ### Запуск игры: __"brain-gcd"__
-[![asciicast](https://asciinema.org/a/w1uLsI9JafdhD39FBaKjFN4hs.svg)](https://asciinema.org/a/w1uLsI9JafdhD39FBaKjFN4hs)
+[![asciicast](https://asciinema.org/a/dMP9WVVgkbXSRJdB.svg)](https://asciinema.org/a/dMP9WVVgkbXSRJdB)
 
 ## Игра "Арифметическая прогрессия"
 ### Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 ### Запуск игры: __"brain-progression"__
-[![asciicast](https://asciinema.org/a/OzRKUk2Ffg8I9IfrOw6vhTYHe.svg)](https://asciinema.org/a/OzRKUk2Ffg8I9IfrOw6vhTYHe)
+[![asciicast](https://asciinema.org/a/I2UYl0uNGoJUIpjw.svg)](https://asciinema.org/a/I2UYl0uNGoJUIpjw)
 
 ## Игра "Простое ли число?"
-### Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
+### Пользователю показывается ряд чисел, одно из которых будет заменено двумя точками. Игрок должен определить и вписать это число.
 ### Запуск игры: __"brain-prime"__
-[![asciicast](https://asciinema.org/a/UmSE1kAsq1bjFryKEMatQOc7H.svg)](https://asciinema.org/a/UmSE1kAsq1bjFryKEMatQOc7H)
+[![asciicast](https://asciinema.org/a/I9V7C85Q5Yg5Bv45.svg)](https://asciinema.org/a/I9V7C85Q5Yg5Bv45)
