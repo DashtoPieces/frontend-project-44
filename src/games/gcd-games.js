@@ -23,6 +23,6 @@ const gsd = () => {
 
 const gameGCD = [start, gsd];
 
-const startGCDGame = () => gameLogic(gameGCD);
+const startGCDGame = () => {gameLogic(gameGCD); } 
 
 export default startGCDGame;

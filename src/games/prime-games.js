@@ -1,5 +1,6 @@
 import { randomNum, gameLogic } from '../index.js';
 
+
 const start = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const checkPrime = (num) => {

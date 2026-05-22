@@ -9,6 +9,6 @@ const isEven = () => {
 
 const gameIsEven = [start, isEven];
 
-const startIsEvenGame = () => gameLogic(gameIsEven);
+const startIsEvenGame = () => {gameLogic(gameIsEven);} 
 
 export default startIsEvenGame;

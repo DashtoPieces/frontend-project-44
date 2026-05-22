@@ -1,5 +1,6 @@
 import { gameLogic } from '../index.js';
 
+
 const start = 'What number is missing in the progression?';
 
 const generateProgression = () => {

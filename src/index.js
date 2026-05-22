@@ -1,10 +1,11 @@
 import readlineSync from 'readline-sync';
-import { userName } from './cli.js';
+import { userName, greatings } from './cli.js';
 
 export const randomNum = () => Math.floor(Math.random() * 25) + 1;
 
 export const gameLogic = ([start, quest]) => {
-  console.log(start);
+  greatings();
+  console.log(start);  
   let round = 0;
   while (round < 3) {
     const usedQuest = quest();

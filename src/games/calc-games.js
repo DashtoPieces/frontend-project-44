@@ -27,6 +27,6 @@ const generateExpression = () => {
 
 const gameCalc = [start, generateExpression];
 
-const startCalcGame = () => gameLogic(gameCalc);
+const startCalcGame = () => {gameLogic(gameCalc); }
 
 export default startCalcGame;
